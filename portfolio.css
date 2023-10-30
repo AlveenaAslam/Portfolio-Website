@@ -1,0 +1,160 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black
+}
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: #240574;
+    color: #fcf4f4;
+    opacity: 0.85;
+    z-index: 100;
+}
+.profile{
+    order: 1;
+    position: absolute;
+    display: inline-block;
+    left: 200px;
+    top: 100px;
+}
+
+.myimg {
+    /* padding: 20px 0 0 20px; */
+    height: 150px;
+    width: 150px;
+    
+     /* position: left; */
+}  
+#Myname{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+  }  
+.nav {
+    position: relative;
+    order: 2;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.list{
+
+list-style-type: none;
+}
+.list a:hover {
+    color: rgb(4, 2, 0);
+  }
+  .summary{
+    position: relative;
+    height: 40px;
+    width: 300px;
+    color: white;
+    top: 150px;
+    left: 430px;
+  }
+.designer{
+    position: relative;
+    top: 40px;
+    left: 900px;
+    width: 380px;
+    height: 300px;
+    /* opacity: 0.5 */
+    /* border-radius: 58% 42% 39% 61% / 67% 68% 32% 33% ; */
+}
+.Heading{
+  font-size:32px;
+  position: absolute;
+  left: 530px;
+  font-weight: bold;
+  color:white;}
+
+.project-container{
+   
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  padding: 0px 0px 0px 150px;
+  
+  }
+  .design{
+    height: 200px;
+    width: 150px;
+    margin: 50px;
+    width: 500px;
+  }
+.t1{
+    position: absolute;
+    left: 420px;
+    color: white;
+    
+  }
+  .t2{
+    position: absolute;
+    right: 360px;
+    color: white;
+    
+    
+  }
+  .googlemap{
+    display: flex;
+    left:100px;
+    position: relative;
+    padding: 0px 0px 30px 0px;
+  }
+  
+  .profile-link{
+    color: rgb(255, 254, 254);
+    text-align: left;
+    left: 35%;
+    bottom: 150px;
+    position: absolute; 
+    font-size: 18px;
+    
+  }
+  .footer .profile-link .googlemap{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    z-index:501;
+    clear:both;
+  }
+    
+/* .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    text-align: justify;
+    display: none;
+    position: absolute;
+    background-color: #c6cecb;
+    top: 70%;
+    left: 0;
+    min-width: 160px;
+  
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    padding: 5px;
+  } */
